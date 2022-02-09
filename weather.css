@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+} 
+
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3399CC;
+}
+
+.header {
+    height: 60px;
+    width: fit-content;
+    color: #FFFFFF;
+    margin: 50px 0 0 160px;
+}
+
+.main {
+	max-width: 1600px;
+	margin: 0 auto; 
+} 
+
+.forecast-list, .forecast-list__item {
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.forecast-list {
+    font-size: 0;
+    border-width: 2px 0 0 2px;
+}
+
+.forecast-list__item {
+    width: 25%;
+    height: 150px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    border-width: 0 2px 2px 0;
+    opacity: 0.6;
+}
+
+.forecast-list__item:hover {
+    opacity: 1;
+    transition: all .3s ease-in
+}
+
+.forecast-list__temp {
+    display: block;
+}
+
+.forecast-list__item_50 {
+    width: 50%;
+}
+
+.forecast-list__item_100 {
+    width: 100%;
+}
+
+.forecast-list__item_bg-tiffany {
+    background-color: #3399CC;
+}
+
+.forecast-list__item_bg-strikemaster {
+    background-color: #58CDCC;
+}
+
+.forecast-list__item_bg-red {
+    background-color: #C24747;
+}
+
+.forecast-list__item_bg-orange {
+    background-color: #E2674A;
+}
+
+.forecast-list__item_bg-yellow {
+    background-color: #FECC66;
+}
+
+.forecast-list__item_bg-green {
+    background-color: #99CC99;
+}
+
+.forecast-list__item_bg-patina {
+    background-color: #669999;
+}
+
+.forecast-list__item_bg-pink {
+    background-color: #CC6699;
+}
+
+.forecast-list__item_bg-dark-green {
+    background-color: #4C9A67;
+}
+
+.forecast-list__item_bg-magenta {
+    background-color: #FF00FF;
+}
+
+.forecast-list__item_bg-purple {
+    background-color: #666699;
+}
+
+.reminder {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 50px 0;
+}
